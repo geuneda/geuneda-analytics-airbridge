@@ -1,0 +1,21 @@
+{
+    "name": "Geuneda.Analytics.Airbridge",
+    "rootNamespace": "Geuneda.Analytics.Airbridge",
+    "references": [
+        "Geuneda.Analytics",
+        "Geuneda.Core",
+        "UniTask",
+        "AirbridgeSDK"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "!GEUNEDA_SKIP_VENDOR_ADAPTERS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

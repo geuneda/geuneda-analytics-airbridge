@@ -1,0 +1,16 @@
+{
+  "name": "com.geuneda.analytics.airbridge",
+  "displayName": "Geuneda Analytics Airbridge",
+  "author": "geuneda",
+  "version": "0.1.0",
+  "unity": "2021.3",
+  "license": "MIT",
+  "description": "com.geuneda.analytics 의 Airbridge sink 입니다. 이벤트 이름은 카테고리, 파라미터는 시맨틱·커스텀 속성으로 나눠 보내고, 표준 이벤트를 Airbridge 표준(구매 → 주문 완료와 상품 목록, 광고 노출 수익 → 광고 노출과 AppLovin 광고 파트너 상세)으로 바꿉니다. Airbridge Unity SDK(AirbridgeSDK 어셈블리)를 설치한 프로젝트에서만 씁니다.",
+  "type": "library",
+  "hideInEditor": false,
+  "dependencies": {
+    "com.geuneda.analytics": "0.2.0",
+    "com.geuneda.core": "0.4.0",
+    "com.cysharp.unitask": "2.5.10"
+  }
+}
